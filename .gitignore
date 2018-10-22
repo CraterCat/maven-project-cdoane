@@ -47,4 +47,8 @@ flows/
 target/
 src/main/api/.repository/
 derby.log
-db-1.log 
+db-1.log
+lock 
+db.data
+db.redo
+KahaDB/lock
