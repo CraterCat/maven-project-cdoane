@@ -46,9 +46,11 @@ local.properties
 flows/
 target/
 src/main/api/.repository/
-derby.log
-db-1.log
-lock 
-db.data
-db.redo
-KahaDB/lock
+derby.log/
+db-1.log/
+lock /
+db.data/
+db.redo/
+KahaDB/lock /
+activemq-data/localhost/KahaDB/db.data
+
