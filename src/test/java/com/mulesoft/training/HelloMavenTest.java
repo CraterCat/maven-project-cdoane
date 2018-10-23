@@ -28,8 +28,9 @@ public class HelloMavenTest extends FunctionalTestCase {
     }
     
     @Override
-    protected String getConfigFile() {
-        return "maven-project-cdoane.xml";
+    protected String[] getConfigFiles() {
+        String[] files = {"maven-project-cdoane.xml", "common-resources.xml"};
+        return files;
     }
 
 }
